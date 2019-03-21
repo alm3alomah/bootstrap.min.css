@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url("Cairo-Regular.ttf");
+    }
+.navbar-brand>img{width: 100%; height: 60px; max-width: 160px;}
+.Client_Section_Btn{background: #4286f5; color: #fff !important; border-radius: 50px; padding: 15px 20px 15px 20px !important;}
+.Client_Section_Btn:hover,.MP_St_Btn:hover{background: #4382dd !important;text-decoration: none;color: #fff;}
+.MP_W{text-align: right;z-index: 2;}
+.MP_St_Btn{background: #4286f5; color: #fff; padding: 10px 40px 10px 40px; border-radius: 50px; text-decoration: none;}
+.MP_H_Img{position: absolute; width: 85%; top: 0; float: left; display: unset; left: 0;}
+.MP_H_Img img{position: absolute; left: 0; right: 0;}
+header{height: 600px;}
+.dots{position: relative;width: 15px; height: 15px; background: #4286f5; border-radius: 50px; display: block; margin: 0 auto; margin-top: 20px; margin-bottom: 20px;}
+.dots:before{content: ''; width: 100px; height: 2px; background: #7d989f;float: right;margin: 6px -115px 0 0; border-radius: 50px;}
+.dots:after{content: ''; width: 100px; height: 2px; background: #7d989f;float: left;margin: 6px 0 0 -115px; border-radius: 50px;}
+.MP_About h2{text-align: center; color: #666;}
+.MP_About p{font-size: 14px; line-height: 25px; text-align: justify; width: 95%; display: block; margin: 0 auto;}
+.MP_About_Img img{width: 100%;margin-right: -4%;}
+.MP_Our_Ser_title {position: relative;text-align: center;margin-top: 80px;}
+
+/* Service */
+.MP_TOP_OUR, .MP_BOTTOM_OUR{width: 100%; height: 200px;background-size: cover; display: inline-block; position: absolute; margin-right: -15px; margin-left: -15px; margin-top: 15px;}
+.MP_TOP_OUR{background-image: url(../img/ourservicetop.svg);}
+.MP_BOTTOM_OUR{background-image: url(../img/ourservicebottom.svg);margin-top: -90px;}
+.MP_Ser_Info{text-align: center;}
+.MP_Ser_Info img{width: 200px; height: 200px; display: block; margin: 0 auto;}
+.MP_All_Ser{background: #f7f7f7;overflow: hidden;}
+.MP_OUR_Ser_btn a{background: #4286f5; color: #fff; padding: 20px 40px 20px 40px; border-radius: 50px; text-decoration: none; width: max-content; position: relative; z-index: 5; display: block; margin: 0 auto; margin-top: 25px;}
+
+/* our works */ 
+.MP_Our_work_title{position: relative; text-align: center; margin-top: 175px;}
+
+/* customer opinions */
+#quote-carousel { padding: 0 10px 30px 10px; margin-top: 30px; } 
+#quote-carousel .carousel-control { background: none; color: #222; font-size: 2.3em; text-shadow: none; margin-top: 30px; }
+#quote-carousel .carousel-control.left { top: 5px; left: -40px; width: 50px; height: 50px; background: #ececec; border: 11px solid #fff; border-radius: 50%; line-height: 30px; font-size: 1em; opacity: 1; } 
+.customer-opinions-box{background: #fff;margin: 30px 0 30px 0;border-radius: 15px;} 
+#quote-carousel .carousel-control.right { top: 5px; right: -40px !important; width: 50px; height: 50px; background: #ececec; border: 11px solid #fff; border-radius: 50%; line-height: 30px; font-size: 1em; opacity: 1; } 
+#quote-carousel .carousel-indicators { top: auto; bottom: 0px; margin-right: -19px; } 
+#quote-carousel .carousel-indicators li { background: #c0c0c0; }
+#quote-carousel .carousel-indicators .active { background: #333333; } 
+#quote-carousel img { width: 100px; height: 100px } 
+.item blockquote { border-left: none; margin: 0; } 
+.item blockquote img { margin-bottom: 10px; } 
+.item blockquote p:before { content: "\f10d"; font-family: 'Fontawesome'; float: right; margin-right: 10px; }
+.MP_CUS_OP{position: absolute; width: 100%; height: 100px; display: block; background-image: url(../img/wave-line-bw-long.svg); background-size: cover; margin: -95px 0 0 0;}
+.customer-opinions{background: #f7f7f7;}
+
+/* Steps */
+.purchase-steps{background: #fff; padding: 60px 0; border-bottom: 1px solid #f1f1f1; text-align: center;} 
+.purchase-steps-box{border-left: 1px solid #eee;} 
+.purchase-steps-icon{ font-size: 2.5em; line-height: 1em; color: #768697; } 
+.purchase-steps-box h5,.purchase-steps-box-end h5{margin: 12px 0 10px; color: #5a6776;} 
+.fa-hand-pointer-o:before { content: "\f25a"; }
+
+@media screen and (min-width: 576px) {.MP_H_Img img:nth-child(2) {display: none;}.MP_About_Img img {margin-top: -20%; }}
+@media screen and (min-width: 768px) {#quote-carousel { margin-bottom: 0; padding: 0 40px 30px 40px; }}
+@media screen and (min-width: 992px) {}
+@media screen and (min-width: 1200px) {}
+@media screen and (max-width: 992px) {}
+@media screen and (max-width: 576px) {.MP_H_Img img:nth-child(1) {display: none;}.MP_H_Info{margin-top: 11%; margin-right: -5%;z-index: 5; }.MP_W h1{font-size: 1.4em;}.MP_W p{font-size: 0.8em; max-width: 60%; text-align: justify;}}
+@media screen and (max-width: 768px) {header {height: 300px;}.MP_H_Img{width: 500px;}.MP_About p{font-size: 12px; }.MP_About_Img img {margin-top: 15px;}.customer-opinions-box{width: 95%;} .item blockquote,.section-title p{font-size: 12px;}}
+
