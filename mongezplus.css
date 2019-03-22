@@ -8,7 +8,7 @@
 .Client_Section_Btn{background: #0D96FD; color: #fff !important; border-radius: 50px; padding: 15px 20px 15px 20px !important;}
 .Client_Section_Btn:hover,.MP_St_Btn:hover{background: #4382dd !important;text-decoration: none;color: #fff;}
 .MP_W{text-align: right;z-index: 2;}
-.MP_St_Btn{background: #4286f5; color: #fff; padding: 10px 40px 10px 40px; border-radius: 50px; text-decoration: none;}
+.MP_St_Btn{background: #0D96FD; color: #fff; padding: 10px 40px 10px 40px; border-radius: 50px; text-decoration: none;}
 .MP_H_Img{position: absolute; width: 85%; top: 0; float: left; display: unset; left: 0;}
 .MP_H_Img img{position: absolute; left: 0; right: 0;}
 header{height: 600px;}
