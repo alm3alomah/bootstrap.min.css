@@ -60,6 +60,6 @@ header{height: 600px;}
 @media screen and (min-width: 992px) {}
 @media screen and (min-width: 1200px) {}
 @media screen and (max-width: 992px) {}
-@media screen and (max-width: 576px) {.MP_H_Img img:nth-child(1) {display: none;}.MP_H_Info{margin-top: 11%; margin-right: -5%;z-index: 5; }.MP_W h1{font-size: 1.4em;}.MP_W p{font-size: 0.8em; max-width: 60%; text-align: justify;}}
+@media screen and (max-width: 576px) {.MP_H_Img img:nth-child(1) {display: none;}.MP_H_Info{margin-top: 11%; margin-right: -5%;z-index: 5; }.MP_W h1{font-size: 1.4em;}.MP_W p{font-size: 0.8em; max-width: 55%; text-align: justify;}}
 @media screen and (max-width: 768px) {header {height: 300px;}.MP_H_Img{width: 500px;}.MP_About p{font-size: 12px; }.MP_About_Img img {margin-top: 15px;}.customer-opinions-box{width: 95%;} .item blockquote,.section-title p{font-size: 12px;}}
 
